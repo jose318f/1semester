@@ -1,0 +1,77 @@
+/*--------------FORSIDE--------------*/
+#forside {
+    background-image: linear-gradient(#495469, rgba(255, 209, 55, 0.26));
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.profil img {
+    margin: 7vw 0vw 0vw 0vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.profil h2 {
+    text-align: center;
+    font-family: monospace;
+    color: #fffaf2;
+    font-weight: lighter;
+    text-shadow: 1px 1px rgb(95, 95, 95);
+
+}
+
+#forside_nav {
+    text-align: center;
+    margin: 10vw 0vw 0vw 0vw;
+}
+
+
+#forside a {
+
+    background-color: rgb(185, 179, 165);
+    text-decoration: none;
+    font-family: arial;
+    font-weight: lighter;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 1px 1px 4px rgba(121, 121, 121, 0.55);
+
+}
+
+#forside a:hover {
+    background-color: rgb(137, 146, 163);
+    box-shadow: 3px 3px 4px rgb(72, 72, 72);
+}
+
+
+#forside a:visited {
+    background-color: rgb(108, 115, 128);
+}
+
+
+
+
+
+/*--------------WEB DESIGN--------------*/
+
+
+
+/*--------------INDHOLD--------------*/
+
+
+
+/*--------------ANIMATION--------------*/
+
+
+
+/*--------------UX--------------*/
