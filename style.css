@@ -10,7 +10,7 @@
 
 
 .profil img {
-    margin: 7vw 0vw 0vw 0vw;
+    margin: 6vw 0vw 0vw 0vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -28,9 +28,22 @@
 
 }
 
+.profiltekst {
+    background-color: rgba(0, 0, 0, 0.26);
+    color: whitesmoke;
+    margin: auto;
+    width: 31%;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+
+}
+
 #forside_nav {
     text-align: center;
-    margin: 10vw 0vw 0vw 0vw;
+    margin: 3vw 0vw 0vw 0vw;
 }
 
 
@@ -60,9 +73,45 @@
 
 
 
+/*-------NAVMENU---------*/
 
+.hidden {
+    opacity: 0;
+}
+
+
+#menuknap {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.5em;
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: opacity 0.2s;
+    transform-origin: top left;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: #6868a2;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2em;
+}
 
 /*--------------WEB DESIGN--------------*/
+
+
 
 
 
