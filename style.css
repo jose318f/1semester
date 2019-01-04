@@ -1,13 +1,27 @@
+/*--------------STYLING--------------*/
+
+
+h1 {
+    font-family: monospace;
+}
+
+p {
+    font-family: arial;
+    font-weight: lighter;
+}
+
+
 /*--------------FORSIDE--------------*/
 #forside {
     background-image: linear-gradient(#495469, rgba(255, 209, 55, 0.26));
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
     min-height: 100%;
 }
 
+.pynt {}
 
 .profil img {
     margin: 6vw 0vw 0vw 0vw;
@@ -35,8 +49,6 @@
     width: 31%;
     padding: 10px;
     text-align: center;
-    font-family: sans-serif;
-    font-weight: lighter;
     font-size: 0.9rem;
 
 }
@@ -88,9 +100,11 @@
 }
 
 #menu {
+
     list-style-type: none;
     transition: opacity 0.2s;
     transform-origin: top left;
+
 }
 
 #menu a {
@@ -109,10 +123,133 @@
     font-size: 1.2em;
 }
 
+
+
+@media only screen and(max-width: 700px) {
+    #menu {}
+
+}
+
+/*--------------INTRO UGE--------------*/
+
+#tema0 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tema0 .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-direction: column;
+    flex-grow: 1;
+
+
+}
+
+
+#tema0 {
+    background-image: linear-gradient(#ffffff, rgba(255, 155, 155, 0.35));
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#tema0 img {
+    margin: 6vw 0vw 0vw 0vw;
+    display: block;
+    width: 60%;
+    margin: auto;
+
+}
+
+#tema0 .tekst {
+    display: block;
+    margin: auto;
+    margin-top: 5vw;
+    width: 60%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+
+}
+
+#tema0 h1 {
+    text-align: center;
+    height: auto;
+}
+
+
 /*--------------WEB DESIGN--------------*/
 
+#tema1 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tema1 .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 500px;
+    flex-direction: column;
+    flex-grow: 1;
 
 
+}
+
+
+#tema1 {
+    background-image: linear-gradient(#ffffff, rgba(255, 155, 155, 0.35));
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#tema1 img {
+    margin: 6vw 0vw 0vw 0vw;
+    display: block;
+    width: 60%;
+    margin: auto;
+
+}
+
+#tema1 .tekst {
+    display: block;
+    margin: auto;
+    margin-top: 5vw;
+    width: 60%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+
+}
+
+#tema1 h1 {
+    text-align: center;
+    height: auto;
+}
+
+#tema1 .sectionwrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tema1 .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.charm {}
 
 
 /*--------------INDHOLD--------------*/
