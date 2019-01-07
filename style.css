@@ -1,17 +1,32 @@
 /*--------------STYLING--------------*/
 
-
 h1 {
-    font-family: monospace;
+    font-family: 'Comfortaa';
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+
+h3 {
+    font-family: 'Spinnaker', sans-serif;
+
 }
 
 p {
-    font-family: arial;
-    font-weight: lighter;
+    font-family: 'Spinnaker', sans-serif;
+
 }
 
 
-/*--------------FORSIDE--------------*/
+/*-----------------------------------------FORSIDE-----------------------------------------------*/
+
+
 #forside {
     background-image: linear-gradient(#495469, rgba(255, 209, 55, 0.26));
     position: absolute;
@@ -35,7 +50,7 @@ p {
 
 .profil h2 {
     text-align: center;
-    font-family: monospace;
+    font-family: 'Comfortaa';
     color: #fffaf2;
     font-weight: lighter;
     text-shadow: 1px 1px rgb(95, 95, 95);
@@ -63,8 +78,7 @@ p {
 
     background-color: rgb(185, 179, 165);
     text-decoration: none;
-    font-family: arial;
-    font-weight: lighter;
+    font-family: 'Spinnaker', sans-serif;
     color: white;
     padding: 10px 15px;
     text-align: center;
@@ -91,12 +105,12 @@ p {
     opacity: 0;
 }
 
-
 #menuknap {
+    margin: 0.6vw 0vw 0vw 1vw;
+    color: #212336;
     display: inline-block;
     cursor: pointer;
     font-size: 1.5em;
-
 }
 
 #menu {
@@ -107,34 +121,63 @@ p {
 
 }
 
+#mor {
+    display: flex;
+}
+
 #menu a {
+
+    top;
+    1vw;
+    margin: 0.5vw;
     text-decoration: none;
-    color: black;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 1.2em;
+    color: #212336;
+    font-family:
+        font-weight: bold;
+    font-size: 1.5em;
 }
 
 #menu a:hover {
     text-decoration: none;
-    color: #6868a2;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 1.2em;
+    color: rgb(118, 122, 165);
 }
 
 
 
-@media only screen and(max-width: 700px) {
-    #menu {}
+@media only screen and (max-width: 700px) {
+    #menu a {
+        display: block;
+    }
+
+    nav {
+        position: fixed;
+    }
 
 }
 
-/*--------------INTRO UGE--------------*/
+/*----------------------------------------INTRO UGE-----------------------------------------*/
+
 
 #tema0 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+}
+
+#photoshop {
+    background-color: rgba(255, 255, 255, 0.28);
+    margin: 1vw;
+
+}
+
+#domaene {
+    background-color: rgba(33, 35, 54, 0.34);
+    margin: 1vw;
+
+}
+
+#titelsekvens {
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 1vw;
 }
 
 #tema0 .column {
@@ -150,7 +193,7 @@ p {
 
 
 #tema0 {
-    background-image: linear-gradient(#ffffff, rgba(255, 155, 155, 0.35));
+    background-image: linear-gradient(#ffffff, rgba(23, 59, 85, 0.71));
     position: absolute;
     top: 0;
     left: 0;
@@ -160,20 +203,17 @@ p {
 }
 
 #tema0 img {
-    margin: 6vw 0vw 0vw 0vw;
     display: block;
-    width: 60%;
+    width: 70%;
     margin: auto;
 
 }
 
+
 #tema0 .tekst {
-    display: block;
+    margin-top: 2vw;
     margin: auto;
-    margin-top: 5vw;
-    width: 60%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-    background-color: white;
+    width: 70%;
 
 }
 
@@ -183,61 +223,34 @@ p {
 }
 
 
-/*--------------WEB DESIGN--------------*/
+/*--------------------------------------------WEB DESIGN-------------------------------------------*/
+
 
 #tema1 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-#tema1 .column {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-basis: 500px;
-    flex-direction: column;
-    flex-grow: 1;
-
+#content {
+    background-color: rgba(255, 255, 255, 0.28);
+    margin: 1vw;
 
 }
 
-
-#tema1 {
-    background-image: linear-gradient(#ffffff, rgba(255, 155, 155, 0.35));
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
+#html {
+    background-color: rgba(33, 35, 54, 0.34);
+    margin: 1vw;
 
 }
 
-#tema1 img {
-    margin: 6vw 0vw 0vw 0vw;
-    display: block;
-    width: 60%;
-    margin: auto;
-
+#ui {
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 1vw;
 }
 
-#tema1 .tekst {
-    display: block;
-    margin: auto;
-    margin-top: 5vw;
-    width: 60%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-    background-color: white;
-
-}
-
-#tema1 h1 {
-    text-align: center;
-    height: auto;
-}
-
-#tema1 .sectionwrapper1 {
-    display: flex;
-    flex-wrap: wrap;
+#responsive {
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 1vw;
 }
 
 #tema1 .column {
@@ -247,17 +260,249 @@ p {
     flex-basis: 300px;
     flex-direction: column;
     flex-grow: 1;
+
+
 }
+
+
+#tema1 {
+    background-image: linear-gradient(#ffffff, rgba(23, 59, 85, 0.71));
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#tema1 img {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
+
+
+#tema1 .tekst {
+    margin-top: 2vw;
+    margin: auto;
+    width: 70%;
+
+}
+
+#tema1 h1 {
+    text-align: center;
+    height: auto;
+}
+
 
 .charm {}
 
 
-/*--------------INDHOLD--------------*/
+
+/*-------------------------------------------INDHOLD------------------------------------------------*/
+
+
+#tema2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pilot {
+    background-color: rgba(255, 255, 255, 0.28);
+    margin: 1vw;
+
+}
+
+#redesign {
+    background-color: rgba(33, 35, 54, 0.34);
+    margin: 1vw;
+
+}
+
+
+#tema2 .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-direction: column;
+    flex-grow: 1;
+
+
+}
+
+
+#tema2 {
+    background-image: linear-gradient(#ffffff, rgba(23, 59, 85, 0.71));
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#tema2 img {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+
+#tema2 .tekst {
+    margin-top: 2vw;
+    margin: auto;
+    width: 50%;
+
+}
+
+#tema2 h1 {
+    text-align: center;
+    height: auto;
+}
+
+/*------------------------------------------ANIMATION--------------------------------------------*/
+
+#tema3 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.28);
+    margin: 1vw;
+
+}
+
+#html {
+    background-color: rgba(33, 35, 54, 0.34);
+    margin: 1vw;
+
+}
+
+#ui {
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 1vw;
+}
+
+#responsive {
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 1vw;
+}
+
+#tema3 .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-direction: column;
+    flex-grow: 1;
+
+
+}
+
+
+#tema3 {
+    background-image: linear-gradient(#ffffff, rgba(23, 59, 85, 0.71));
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#tema3 img {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
+
+
+#tema3 .tekst {
+    margin-top: 2vw;
+    margin: auto;
+    width: 70%;
+
+}
+
+#tema3 h1 {
+    text-align: center;
+    height: auto;
+}
 
 
 
-/*--------------ANIMATION--------------*/
+/*----------------------------------------UX---------------------------------------------------*/
 
 
+#tema4 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/*--------------UX--------------*/
+#content {
+    background-color: rgba(255, 255, 255, 0.28);
+    margin: 1vw;
+
+}
+
+#html {
+    background-color: rgba(33, 35, 54, 0.34);
+    margin: 1vw;
+
+}
+
+#ui {
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 1vw;
+}
+
+#responsive {
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 1vw;
+}
+
+#tema4 .column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-direction: column;
+    flex-grow: 1;
+
+
+}
+
+
+#tema4 {
+    background-image: linear-gradient(#ffffff, rgba(23, 59, 85, 0.71));
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#tema4 img {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
+
+
+#tema4 .tekst {
+    margin-top: 2vw;
+    margin: auto;
+    width: 70%;
+
+}
+
+#tema4 h1 {
+    text-align: center;
+    height: auto;
+}
