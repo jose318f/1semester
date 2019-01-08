@@ -14,7 +14,10 @@ h2 {
 }
 
 h3 {
-    font-family: 'Spinnaker', sans-serif;
+    font-family: 'Rasa', serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+
 
 }
 
@@ -23,12 +26,38 @@ p {
 
 }
 
+.tekst a {
+    text-decoration: none;
+    color: white;
+
+}
+
+video {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
+
+.dark {
+    background-color: rgba(33, 35, 54, 0.34);
+    margin: 1vw;
+
+}
+
+.light {
+    background-color: rgba(255, 255, 255, 0.45);
+    margin: 1vw;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+
+}
+
 
 /*-----------------------------------------FORSIDE-----------------------------------------------*/
 
 
 #forside {
-    background-image: linear-gradient(#495469, rgba(255, 209, 55, 0.26));
+    background-image: linear-gradient(#495469, rgba(255, 251, 238, 0.26));
     position: absolute;
     top: 0;
     left: 0;
@@ -127,14 +156,12 @@ p {
 
 #menu a {
 
-    top;
-    1vw;
     margin: 0.5vw;
     text-decoration: none;
     color: #212336;
-    font-family:
-        font-weight: bold;
-    font-size: 1.5em;
+    font-family: 'Comfortaa';
+    font-weight: lighter;
+    font-size: 1.3rem;
 }
 
 #menu a:hover {
@@ -147,16 +174,35 @@ p {
 @media only screen and (max-width: 700px) {
     #menu a {
         display: block;
+        height: 8vw;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0.78);
     }
 
     nav {
         position: fixed;
     }
 
+    .profiltekst {
+        width: 80%;
+        font-size: 1.1rem;
+
+    }
+
+    .profil img {
+        width: 50%;
+
+    }
+
+    .profil h2 {
+        font-size: 1.5rem;
+    }
+
 }
 
 /*----------------------------------------INTRO UGE-----------------------------------------*/
-
+/*
 
 #tema0 .sectionwrapper {
     display: flex;
@@ -231,27 +277,6 @@ p {
     flex-wrap: wrap;
 }
 
-#content {
-    background-color: rgba(255, 255, 255, 0.28);
-    margin: 1vw;
-
-}
-
-#html {
-    background-color: rgba(33, 35, 54, 0.34);
-    margin: 1vw;
-
-}
-
-#ui {
-    background-color: rgba(255, 255, 255, 0.45);
-    margin: 1vw;
-}
-
-#responsive {
-    background-color: rgba(255, 255, 255, 0.45);
-    margin: 1vw;
-}
 
 #tema1 .column {
     display: flex;
@@ -308,18 +333,6 @@ p {
     flex-wrap: wrap;
 }
 
-#pilot {
-    background-color: rgba(255, 255, 255, 0.28);
-    margin: 1vw;
-
-}
-
-#redesign {
-    background-color: rgba(33, 35, 54, 0.34);
-    margin: 1vw;
-
-}
-
 
 #tema2 .column {
     display: flex;
@@ -353,7 +366,7 @@ p {
 #tema2 .tekst {
     margin-top: 2vw;
     margin: auto;
-    width: 50%;
+    width: 60%;
 
 }
 
@@ -369,27 +382,6 @@ p {
     flex-wrap: wrap;
 }
 
-#content {
-    background-color: rgba(255, 255, 255, 0.28);
-    margin: 1vw;
-
-}
-
-#html {
-    background-color: rgba(33, 35, 54, 0.34);
-    margin: 1vw;
-
-}
-
-#ui {
-    background-color: rgba(255, 255, 255, 0.45);
-    margin: 1vw;
-}
-
-#responsive {
-    background-color: rgba(255, 255, 255, 0.45);
-    margin: 1vw;
-}
 
 #tema3 .column {
     display: flex;
@@ -443,27 +435,6 @@ p {
     flex-wrap: wrap;
 }
 
-#content {
-    background-color: rgba(255, 255, 255, 0.28);
-    margin: 1vw;
-
-}
-
-#html {
-    background-color: rgba(33, 35, 54, 0.34);
-    margin: 1vw;
-
-}
-
-#ui {
-    background-color: rgba(255, 255, 255, 0.45);
-    margin: 1vw;
-}
-
-#responsive {
-    background-color: rgba(255, 255, 255, 0.45);
-    margin: 1vw;
-}
 
 #tema4 .column {
     display: flex;
@@ -496,7 +467,6 @@ p {
 
 
 #tema4 .tekst {
-    margin-top: 2vw;
     margin: auto;
     width: 70%;
 
