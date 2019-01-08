@@ -32,6 +32,10 @@ p {
 
 }
 
+.tekst a:hover {
+    color: coral;
+}
+
 video {
     display: block;
     width: 70%;
@@ -87,8 +91,8 @@ video {
 }
 
 .profiltekst {
-    background-color: rgba(0, 0, 0, 0.26);
-    color: whitesmoke;
+    background-color: rgba(255, 127, 80, 0.38);
+    color: white;
     margin: auto;
     width: 31%;
     padding: 10px;
@@ -105,7 +109,7 @@ video {
 
 #forside a {
 
-    background-color: rgb(185, 179, 165);
+    background-color: rgb(93, 94, 111);
     text-decoration: none;
     font-family: 'Spinnaker', sans-serif;
     color: white;
@@ -117,14 +121,10 @@ video {
 }
 
 #forside a:hover {
-    background-color: rgb(137, 146, 163);
+    background-color: lightcoral;
     box-shadow: 3px 3px 4px rgb(72, 72, 72);
 }
 
-
-#forside a:visited {
-    background-color: rgb(108, 115, 128);
-}
 
 
 
@@ -166,17 +166,16 @@ video {
 
 #menu a:hover {
     text-decoration: none;
-    color: rgb(118, 122, 165);
+    color: lightcoral;
 }
-
 
 
 @media only screen and (max-width: 700px) {
     #menu a {
+        margin: auto;
         display: block;
-        height: 8vw;
+        height: 6vw;
         font-size: 1rem;
-        font-weight: bold;
         background-color: rgba(255, 255, 255, 0.78);
     }
 
