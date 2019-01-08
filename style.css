@@ -72,7 +72,7 @@ video {
 .pynt {}
 
 .profil img {
-    margin: 6vw 0vw 0vw 0vw;
+    margin: 4vw 0vw 0vw 0vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -103,7 +103,7 @@ video {
 
 #forside_nav {
     text-align: center;
-    margin: 3vw 0vw 0vw 0vw;
+    margin: 2vw 0vw 0vw 0vw;
 }
 
 
@@ -112,8 +112,9 @@ video {
     background-color: rgb(93, 94, 111);
     text-decoration: none;
     font-family: 'Spinnaker', sans-serif;
+    font-size: 1.3rem;
     color: white;
-    padding: 10px 15px;
+    padding: 7px 15px;
     text-align: center;
     display: inline-block;
     box-shadow: 1px 1px 4px rgba(121, 121, 121, 0.55);
@@ -196,6 +197,10 @@ video {
 
     .profil h2 {
         font-size: 1.5rem;
+    }
+
+    #forside a {
+        margin: 5vw 0vw 1vw 5vw;
     }
 
 }
